@@ -15,7 +15,7 @@ const HeroSection = () => {
          <span className="flex space-x-4 my-8">  
             <button className="bg-[#f65261] text-white py-4 px-3 rounded-lg text-xl font-semibold">Start for Free</button>
         </span>
-        <Image src="/demo.png" width={1500} height={1500} alt="hero" className='pt-5'/>
+        <Image src="/images/homepage/demo.png" width={1500} height={1500} alt="hero" className='pt-5'/>
         <div className='grid grid-cols-12 w-full py-14'>
           <div className='col-span-3 font-serif px-4 text-xl  text-[#7b7a7a] border-r-2 flex-col items-center flex'>
           <p>“Simple, straightforward,</p>
