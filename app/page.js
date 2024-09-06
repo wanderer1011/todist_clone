@@ -2,7 +2,7 @@ import NavBar from "./components/NavBar";
 import HeroSection from "./components/HeroSection";
 import Footer from "./components/Footer";
 import ScrollableComponent from "./components/Scrollable";
-
+import Footer_text from "./components/Footer_text";
 
 const images  = [
   "/images/homepage/demo1.png",
@@ -49,9 +49,13 @@ export default function Home() {
       </>
       }
       images={images}/>
-      
     </main>
-     <Footer/>
+    <div class="bg-gradient-to-t from-orange-100 to-white w-full ">
+
+      <Footer_text/>
+      <Footer/>
+
+    </div>
     </>
   );
 }
